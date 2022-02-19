@@ -1,0 +1,11 @@
+{
+  "name": "platform-props",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

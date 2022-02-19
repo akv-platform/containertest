@@ -1,0 +1,8 @@
+{
+  "name": "util-hash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "util-retry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test:unit": "ts-mocha --recursive test/unit --extension ts"
+  }
+}

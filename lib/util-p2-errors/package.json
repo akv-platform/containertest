@@ -1,0 +1,8 @@
+{
+  "name": "util-p2-errors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "MIT"
+}

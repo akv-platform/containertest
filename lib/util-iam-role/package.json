@@ -1,0 +1,12 @@
+{
+  "name": "util-iam-role",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ivanlucic",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-iam": "^3.49.0",
+    "proxy-agent": "^5.0.0"
+  }
+}

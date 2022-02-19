@@ -1,0 +1,11 @@
+{
+  "name": "util-user-org-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "artifact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chunfeng",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.49.0",
+    "@aws-sdk/client-codebuild": "^3.49.0",
+    "@aws-sdk/client-s3": "^3.49.0",
+    "@aws-sdk/s3-request-presigner": "^3.49.0",
+    "@hapi/boom": "^9.1.4",
+    "@hapi/hapi": "^20.2.0",
+    "joi": "^17.5.0",
+    "jszip": "^3.5.0",
+    "lodash": "^4.17.15",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test:integration": "ts-mocha --exit --type-check --recursive test/integration --extension ts"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "checktainer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tatrascience",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "@hapi/hapi": "^20.2.1",
+    "lodash": "^4.17.15",
+    "superagent": "^6.1.0"
+  },
+  "scripts": {
+    "test:unit": "ts-mocha --recursive test/unit --extension ts,js"
+  }
+}

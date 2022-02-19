@@ -1,0 +1,19 @@
+{
+  "name": "workflow-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chunfeng",
+  "private": true,
+  "dependencies": {
+    "@hapi/h2o2": "^9.0.2",
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/boom": "^9.1.4",
+    "lodash": "^4.17.15",
+    "joi": "^17.5.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "scripts": {
+    "test:integration": "ts-mocha --exit --type-check --recursive test/integration --extension ts"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "util-date-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ilucic",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "luxon": "^2.2.0"
+  }
+}

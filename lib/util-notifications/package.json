@@ -1,0 +1,11 @@
+{
+  "name": "util-notifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ivanlucic",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.49.0"
+  }
+}

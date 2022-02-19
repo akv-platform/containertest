@@ -1,0 +1,64 @@
+{
+  "name": "ts-demo-p2",
+  "version": "1.0.0",
+  "description": "pipeline v2",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/axios": "^0.14.0",
+    "@types/bluebird": "^3.5.36",
+    "@types/chai": "^4.3.0",
+    "@types/cls-hooked": "^4.3.3",
+    "@types/hapi": "^18.0.7",
+    "@types/hapi__h2o2": "^8.3.3",
+    "@types/hapi__hapi": "^20.0.10",
+    "@types/hapi__inert": "^5.2.3",
+    "@types/hapi__vision": "^5.5.3",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/lodash": "^4.14.178",
+    "@types/luxon": "^2.0.9",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.13",
+    "@types/p-event": "^3.0.0",
+    "@types/request-promise": "^4.1.48",
+    "@types/rewire": "^2.5.28",
+    "@types/sinon": "^10.0.11",
+    "@types/superagent": "^4.1.15",
+    "@types/uuid": "^8.3.4",
+    "@types/winston": "^2.4.4",
+    "chai": "^4.2.0",
+    "eslint": "^8.4.1",
+    "mocha": "^9.1.4",
+    "nyc": "^15.1.0",
+    "require-all": "^3.0.0",
+    "rewire": "^6.0.0",
+    "sinon": "^12.0.1",
+    "ts-mocha": "^9.0.2",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "workspaces": {
+    "packages": [
+      "lib/*",
+      "services/*"
+    ],
+    "nohoist": [
+      "util-artifact-builder/**"
+    ]
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:integration",
+    "test:local": "npm run test:unit && npm run test:integration:local",
+    "test:local:cov": "nyc --all npm run test:local",
+    "test:unit": "npm run test:unit -w memoize-with-ttl -w util-throttle-max-wait -w util-retry -w async-throttle -w storage-workflow -w util-storage -w util-sqs -w orchestrator -w instance-manager -w checktainer",
+    "test:unit:cov": "nyc --all npm run test:unit",
+    "test:integration": "npm run test:integration -w workflow-api -w artifact -w storage-artifact",
+    "test:integration:local": "export $(cat local.env | xargs) && npm run test:integration",
+    "test:integration:local:cov": "nyc --all npm run test:integration:local",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts,.js",
+    "build": "tsc -b"
+  },
+  "private": true
+}

@@ -1,0 +1,22 @@
+{
+  "name": "storage-workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tetrascience",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "joi": "^17.5.0",
+    "cls-hooked": "^4.2.2",
+    "lodash": "^4.17.15",
+    "luxon": "^2.2.0",
+    "pg": "^8.5.1",
+    "pg-listen": "^1.7.0",
+    "postgres-pool": "^5.0.8",
+    "postgrator": "^4.1.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test:unit": "ts-mocha --recursive test/unit --extension ts"
+  }
+}

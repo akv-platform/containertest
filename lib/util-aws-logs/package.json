@@ -1,0 +1,13 @@
+{
+  "name": "util-aws-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "ivanlucic",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.49.0",
+    "lodash": "^4.17.15",
+    "luxon": "^2.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "util-sqs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chunfeng",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "@aws-sdk/client-sqs": "^3.49.0"
+  },
+  "scripts": {
+    "test:unit": "ts-mocha --recursive test/unit --extension ts"
+  }
+
+}

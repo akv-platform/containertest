@@ -1,0 +1,22 @@
+{
+  "name": "storage-artifact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tetrascience",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "joi": "^17.5.0",
+    "cls-hooked": "^4.2.2",
+    "knex": "^1.0.2",
+    "knex-paginate": "^2.2.0",
+    "lodash": "^4.17.15",
+    "luxon": "^2.2.0",
+    "pg": "^8.5.1",
+    "postgrator": "^4.1.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test:integration": "ts-mocha --exit --type-check --recursive test/integration --extension ts"
+  }
+}

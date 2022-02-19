@@ -1,0 +1,14 @@
+{
+  "name": "async-throttle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chunfeng",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "scripts": {
+    "test:unit": "ts-mocha --recursive test/unit --extension ts"
+  }
+}
