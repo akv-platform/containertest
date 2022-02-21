@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "ts-lib-authorization":  "tetrascience/ts-lib-authorization#semver:^1.2.5",
-    "ts-lib-hapi-authorization": "tetrascience/ts-lib-hapi-authorization#semver:^3.3.0",
-    "ts-lib-shared-schema": "tetrascience/ts-lib-shared-schema#semver:^6.6.10"
+    "ts-lib-hapi-authorization": "tetrascience/ts-lib-hapi-authorization#update-schema",
+    "ts-lib-shared-schema": "tetrascience/ts-lib-shared-schema#semver:^6.8.10"
   }
 }
