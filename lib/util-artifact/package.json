@@ -6,6 +6,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ts-lib-artifact": "tetrascience/ts-lib-artifact#no-peer-dep"
+    "relish": "tetrascience/relish#hapi-namespace"
   }
 }
