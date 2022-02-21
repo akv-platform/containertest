@@ -10,10 +10,8 @@
     "@hapi/boom": "^9.1.4",
     "lodash": "^4.17.15",
     "joi": "^17.5.0",
-    "relish": "tetrascience/relish#hapi-namespace",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4",
-    "hapi-pagination": "tetrascience/hapi-pagination#deps-update"
+    "request-promise": "^4.2.4"
   },
   "scripts": {
     "test:integration": "ts-mocha --exit --type-check --recursive test/integration --extension ts"

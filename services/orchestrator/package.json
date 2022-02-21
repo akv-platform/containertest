@@ -16,9 +16,6 @@
     "lodash": "^4.17.15",
     "luxon": "^2.2.0",
     "p-event": "^4.2.0",
-    "relish": "tetrascience/relish#hapi-namespace",
-    "ts-lib-authorization": "tetrascience/ts-lib-authorization#semver:^1.2.4",
-    "ts-lib-file-events": "tetrascience/ts-lib-file-events#semver:^0.3.4",
     "uuid": "^8.3.2"
   },
   "scripts": {
