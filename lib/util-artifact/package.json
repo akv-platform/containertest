@@ -6,6 +6,5 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ts-lib-json-stream": "tetrascience/ts-lib-json-stream"
   }
 }
