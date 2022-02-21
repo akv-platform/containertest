@@ -6,6 +6,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ts-lib-nucleus": "tetrascience/ts-lib-nucleus#semver:^4.0.1"
+    "relish": "tetrascience/relish#hapi-namespace"
   }
 }
