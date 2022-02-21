@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ts-lib-artifact": "tetrascience/ts-lib-artifact#semver:^3.1.0"
-
+    "ts-lib-artifact": "tetrascience/ts-lib-artifact#no-peer-dep"
   }
 }
