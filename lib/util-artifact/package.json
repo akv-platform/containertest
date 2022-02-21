@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "relish": "tetrascience/relish#hapi-namespace"
+    "ts-lib-authorization": "tetrascience/ts-lib-authorization#semver:^1.2.4",
+    "ts-lib-file-events": "tetrascience/ts-lib-file-events#semver:^0.3.4"
   }
 }
