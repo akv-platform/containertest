@@ -6,7 +6,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "ts-lib-authorization":  "tetrascience/ts-lib-authorization#semver:^1.2.5",
-    "ts-lib-shared-schema": "tetrascience/ts-lib-shared-schema#semver:^6.8.10"
+    "ts-lib-authorization":  "tetrascience/ts-lib-authorization#semver:^1.2.5"
   }
 }
