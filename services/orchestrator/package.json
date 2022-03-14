@@ -6,11 +6,11 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.49.0",
-    "axios": "^0.24.0",
+    "@hapi/boom": "^9.1.4",
     "@hapi/h2o2": "^9.0.2",
     "@hapi/hapi": "^20.2.1",
-    "@hapi/boom": "^9.1.4",
     "@hapi/wreck": "^17.1.0",
+    "axios": "^0.24.0",
     "json-stream": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",

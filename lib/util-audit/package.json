@@ -4,7 +4,5 @@
   "main": "index.js",
   "author": "tetrascience",
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-  }
+  "private": true
 }

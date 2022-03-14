@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.15",
-    "joi": "^17.5.0"
+    "joi": "^17.5.0",
+    "lodash": "^4.17.15"
   }
 }

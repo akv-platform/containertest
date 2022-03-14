@@ -60,5 +60,6 @@
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.js",
     "build": "tsc -b"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@3.2.0"
 }

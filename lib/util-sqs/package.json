@@ -6,11 +6,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bluebird": "^3.5.3",
-    "@aws-sdk/client-sqs": "^3.49.0"
+    "@aws-sdk/client-sqs": "^3.49.0",
+    "bluebird": "^3.5.3"
   },
   "scripts": {
     "test:unit": "ts-mocha --recursive test/unit --extension ts"
   }
-
 }

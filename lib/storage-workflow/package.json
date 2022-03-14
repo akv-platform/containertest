@@ -6,14 +6,14 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "joi": "^17.5.0",
     "cls-hooked": "^4.2.2",
+    "joi": "^17.5.0",
     "lodash": "^4.17.15",
     "luxon": "^2.2.0",
     "pg": "^8.5.1",
     "pg-listen": "^1.7.0",
-    "postgres-pool": "^5.0.8",
     "postgrator": "^4.1.1",
+    "postgres-pool": "^5.0.8",
     "uuid": "^8.3.2"
   },
   "scripts": {

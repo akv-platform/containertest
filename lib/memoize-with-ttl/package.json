@@ -5,8 +5,6 @@
   "author": "chunfeng",
   "license": "MIT",
   "private": true,
-  "dependencies": {
-  },
   "scripts": {
     "test:unit": "ts-mocha --recursive test/unit --extension ts"
   }

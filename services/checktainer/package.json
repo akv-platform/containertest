@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bluebird": "^3.7.2",
     "@hapi/hapi": "^20.2.1",
+    "bluebird": "^3.7.2",
     "lodash": "^4.17.15",
     "superagent": "^6.1.0"
   },
