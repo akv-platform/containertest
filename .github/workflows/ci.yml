@@ -27,4 +27,8 @@ jobs:
      - run: |
          whoami
          echo $HOME
+         pwd
+         ls -la .
+         ls -la ..
+         ls -la ../..
          npm ci --cache ../.npm
