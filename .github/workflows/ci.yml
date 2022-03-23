@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build:
+  container:
     runs-on: ubuntu-latest
     container: node:16-alpine
 
@@ -31,7 +31,7 @@ jobs:
      - run: ls -la /home
      - run: npm ci 
 
-  build:
+  ubuntu:
     runs-on: ubuntu-latest
 
     steps:
