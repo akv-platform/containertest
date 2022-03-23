@@ -23,6 +23,8 @@ jobs:
      - uses: actions/checkout@v2
        with:
           persist-credentials: false
-     - run: apk update && apk add git sudo
-     - run: mkdir -p /github/home && sudo chown -R 1001:121 /github/home
-     - run: npm ci 
+     - run: apk update && apk add git 
+     - run: |
+       whoami
+       echo $HOME
+       npm ci --cache ../.npm
