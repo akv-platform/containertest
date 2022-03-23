@@ -27,5 +27,4 @@ jobs:
      - run: |
          whoami
          echo $HOME
-         npm config ls -l
          npm ci --cache ../.npm
