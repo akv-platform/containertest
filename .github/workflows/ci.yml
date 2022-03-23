@@ -23,25 +23,6 @@ jobs:
      - uses: actions/checkout@v2
        with:
           persist-credentials: false
-     - run: ls -la  /
-     - run: ls -la /home
-     - run: apk update && apk add git
-     - run: ls -la `which git`
-     - run: ls -la  /
-     - run: ls -la /home
+     - run: apk update && apk add git sudo
+     - run: mkdir -p /github/home && sudo chown -R 1001:121 /github/home
      - run: npm ci 
-
-  ubuntu:
-    runs-on: ubuntu-latest
-
-    steps:
-     - uses: actions/checkout@v2
-       with:
-          persist-credentials: false
-     - run: ls -la  /
-     - run: ls -la /home
-     - run: ls -la `which git`
-     - run: npm ci 
-     - run: ls -la  /
-     - run: ls -la /home
-     - run: ls -la ~/.npm
