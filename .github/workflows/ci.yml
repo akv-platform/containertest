@@ -23,8 +23,15 @@ jobs:
      - uses: actions/checkout@v2
        with:
           persist-credentials: false
+     - run: |
+         whoami
+         echo $HOME
      - run: apk update && apk add git 
      - run: |
          whoami
          echo $HOME
-         npm ci --cache /tmp/.npm
+         ps
+         ps -a
+         ps -u
+         ps -x
+#         npm ci --cache /tmp/.npm
