@@ -24,6 +24,7 @@ jobs:
        with:
           persist-credentials: false
      - run: |
+         cat /etc/environment
          whoami
          echo $HOME
          cat /etc/passwd
