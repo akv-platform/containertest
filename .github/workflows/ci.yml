@@ -31,7 +31,6 @@ jobs:
      - run: |
          whoami
          echo $HOME
-         ps
-         cmd=`ps|grep 'sh -e'|sed  's/.*-e //'`
-         cat $cmd
+         cat /etc/passwd
+     - run: apk update && apk add git 
 #         npm ci --cache /tmp/.npm
