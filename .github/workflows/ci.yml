@@ -26,12 +26,12 @@ jobs:
      - run: |
          whoami
          echo $HOME
+         cat /etc/passwd
      - run: apk update && apk add git 
      - run: |
          whoami
          echo $HOME
          ps
-         ps -a
-         ps -u
-         ps -x
+         cmd=`ps|grep 'sh -e'|sed  's/.*-e //'`
+         cat $cmd
 #         npm ci --cache /tmp/.npm
